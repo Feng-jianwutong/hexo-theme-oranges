@@ -1,3 +1,8 @@
+<!-- 确保 md5 库在使用前已加载 -->
+<% if(theme.comments.enable && theme.comments.gitalk.enable) { %>
+  <script src="<%= url_for('/js/md5.min.js') %>"></script>
+<% } %>
+
 <% if(theme.comments.enable && theme.comments.waline.enable) { %>
   <div id="waline-comments"></div>
 

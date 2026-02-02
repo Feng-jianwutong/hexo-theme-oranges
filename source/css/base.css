@@ -20,12 +20,11 @@ body.hidden {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 2;
-  color: #24292e;
   font-size: 1.6rem;
   line-height: 2;
   word-wrap: break-word;
-  color: var(--color-text-md-content)
-}
+  color: var(--color-text-md-content);
+} 
 
 @media (max-width: 768px) {
   .markdown-body {

@@ -20,8 +20,8 @@
 
 .markdown-body .pl-smi,
 .markdown-body .pl-s .pl-s1 {
-  color: #24292e;
-}
+  color: var(--color-text-md-content);
+} 
 
 .markdown-body .pl-ent {
   color: #22863a;
@@ -82,13 +82,13 @@
 
 .markdown-body .pl-mi {
   font-style: italic;
-  color: #24292e;
-}
+  color: var(--color-text-md-content);
+} 
 
 .markdown-body .pl-mb {
   font-weight: bold;
-  color: #24292e;
-}
+  color: var(--color-text-md-content);
+} 
 
 .markdown-body .pl-md {
   color: #b31d28;

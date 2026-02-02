@@ -7,12 +7,12 @@
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
-  color: #24292e;
+  color: var(--color-text-md-content);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
-}
+} 
 
 .markdown-body .pl-c {
   color: #6a737d;
@@ -30,8 +30,8 @@
 
 .markdown-body .pl-smi,
 .markdown-body .pl-s .pl-s1 {
-  color: #24292e;
-}
+  color: var(--color-text-md-content);
+} 
 
 .markdown-body .pl-ent {
   color: #22863a;
@@ -92,13 +92,13 @@
 
 .markdown-body .pl-mi {
   font-style: italic;
-  color: #24292e;
-}
+  color: var(--color-text-md-content);
+} 
 
 .markdown-body .pl-mb {
   font-weight: bold;
-  color: #24292e;
-}
+  color: var(--color-text-md-content);
+} 
 
 .markdown-body .pl-md {
   color: #b31d28;
